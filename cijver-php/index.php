@@ -18,6 +18,14 @@
             margin: auto;
         }
 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
         nav {
             height: 50px;
         }
