@@ -11,11 +11,14 @@
 
         ul {
             list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
         }
 
         li {
-            display: inline;
-            margin: auto;
+            float: left;
         }
 
         li a {
@@ -26,8 +29,8 @@
             text-decoration: none;
         }
 
-        nav {
-            height: 50px;
+        li a:hover {
+            background-color: #111;
         }
     </style>
 </head>
